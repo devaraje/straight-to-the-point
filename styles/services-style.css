@@ -1,0 +1,23 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li { 
+  list-style: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-weight: 500;
+}
+
+.image {
+  max-height: 15rem;
+  width: 15rem;
+  border: 1em;
+}
