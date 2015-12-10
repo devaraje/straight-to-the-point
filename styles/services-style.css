@@ -8,12 +8,9 @@ li {
   list-style: none;
 }
 
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-weight: 500;
+h2 {
+  text-align: center;
+  padding-bottom: 2rem;
 }
 
 .image {
@@ -21,3 +18,24 @@ li {
   width: 15rem;
   border: 1em;
 }
+
+.class-name {
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.class-description {
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+.class-price, .class-schedule {
+  padding-bottom: 1rem;
+}
+
+.class-prereq {
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+  
