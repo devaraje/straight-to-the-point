@@ -170,16 +170,24 @@ a{
   text-decoration: none;
   padding:.5rem;
 }
+ .content h4{
+  padding:1rem;
+  padding-left: 0;
+}
  
 h3{
 margin-bottom: 1rem;
 }
 button{
-padding:.5rem;
-margin-top: 1rem;
+  padding:.5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; 
 }
 
 .mainfooter{
+  margin-top: 2%;
   clear: both;
   width:100%;
   float:left;
@@ -188,16 +196,16 @@ margin-top: 1rem;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px; 
 }
-h4{
-padding:1rem;
-  padding-left: 0;
+.mainfooter h4, h5{
+padding:.75rem;
 }
 .mainfooter p{
-color:#FFF;
-margin:auto;
+  color:#FFF;
+  margin:auto;
   font-style: italic;
   font-size: small;
-  padding: .5rem;
+  padding: .75rem;
+  padding-top: 0;
   
 }
     
