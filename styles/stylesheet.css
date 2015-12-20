@@ -131,7 +131,9 @@ nav .active a:link{
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
-
+aside h2{
+padding-bottom: 0.5rem;
+}
 .top-sidebar {
   width:30%;
   float:right;
@@ -141,7 +143,7 @@ nav .active a:link{
   -moz-border-radius: 5px;
   margin-top: 2%; 
   padding:1rem;
-  linear:gradient()
+  font-family: sans-serif;
 }
 .middle-sidebar{
   width:30%;
@@ -152,6 +154,7 @@ nav .active a:link{
   -moz-border-radius: 5px;
   margin-top: 2%; 
   padding:1rem;
+  font-family: sans-serif;
 }
 .bottom-sidebar{
   width:30%;
@@ -162,6 +165,7 @@ nav .active a:link{
   -moz-border-radius: 5px;
   margin-top: 2%; 
   padding:1rem;
+  font-family: sans-serif;
 }
 .bottom-sidebar ul li{
    list-style: none;
